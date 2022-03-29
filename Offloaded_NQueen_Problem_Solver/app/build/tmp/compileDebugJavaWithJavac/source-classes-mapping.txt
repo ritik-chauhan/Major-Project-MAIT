@@ -1,0 +1,19 @@
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/SecondActivity.java
+ com.example.myapplication.SecondActivity
+ com.example.myapplication.SecondActivity$1
+ com.example.myapplication.SecondActivity$2
+ com.example.myapplication.SecondActivity$2$1
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+com/example/myapplication/NQueenProblem.java
+ com.example.myapplication.NQueenProblem
+com/example/myapplication/OffloadingConnection.java
+ com.example.myapplication.OffloadingConnection
+ com.example.myapplication.OffloadingConnection$1
+ com.example.myapplication.OffloadingConnection$2
+ com.example.myapplication.OffloadingConnection$3
+com/example/myapplication/OffloadCode.java
+ com.example.myapplication.OffloadCode

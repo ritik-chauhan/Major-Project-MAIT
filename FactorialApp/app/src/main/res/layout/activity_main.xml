@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativel"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Factorial Calculator"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/name"
+        android:gravity="center">
+    </TextView>
+
+    <Switch
+        android:id="@+id/simpleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/name"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Offloading "
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+    </Switch>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/simpleSwitch"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Enter n: ">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:id="@+id/entern"
+            android:textColor="@color/black"
+            android:maxEms="6"
+            android:backgroundTint="@color/black"
+            android:ems="5"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/okbtn"
+        android:background="@drawable/backbtn"
+        android:backgroundTint="@color/black"
+        android:text="OK"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+
+</RelativeLayout>

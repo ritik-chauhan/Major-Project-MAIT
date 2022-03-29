@@ -1,0 +1,18 @@
+com/example/factorialapp/BuildConfig.java
+ com.example.factorialapp.BuildConfig
+com/example/factorialapp/PopUp.java
+ com.example.factorialapp.PopUp
+ com.example.factorialapp.PopUp$1
+com/example/factorialapp/MainActivity.java
+ com.example.factorialapp.MainActivity
+ com.example.factorialapp.MainActivity$1
+ com.example.factorialapp.MainActivity$2
+com/example/factorialapp/factorial.java
+ com.example.factorialapp.factorial
+com/example/factorialapp/OffloadCode.java
+ com.example.factorialapp.OffloadCode
+com/example/factorialapp/OffloadingConnection.java
+ com.example.factorialapp.OffloadingConnection
+ com.example.factorialapp.OffloadingConnection$1
+ com.example.factorialapp.OffloadingConnection$2
+ com.example.factorialapp.OffloadingConnection$3
